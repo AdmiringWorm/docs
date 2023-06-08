@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Docs.Shortcodes;
+using Docs.src.Shortcodes;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Markdown;
@@ -19,6 +20,8 @@ namespace Docs
             .ConfigureSite("chocolatey", "docs", "master")
             .ConfigureTemplates(templates => ((RenderMarkdown)templates[MediaTypes.Markdown].Module).UseExtension(new Markdig.Extensions.Emoji.EmojiExtension()))
             .AddShortcode("Children", typeof(ChildrenShortcode))
+            .AddShortcode("TabContainer", typeof(TabContainerShortcode))
+            .AddShortcode("Tab", typeof(TabShortcode))
             .AddPipelines()
             .RunAsync();
 
