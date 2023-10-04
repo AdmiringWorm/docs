@@ -2,7 +2,7 @@
 Order: 150
 xref: branding
 Title: Branding Chocolatey Applications (C4B)
-Description: Brand Chocolatey applications with your own organisational icons
+Description: Brand Chocolatey applications with your own organizational icons
 RedirectFrom: docs/features-branding
 ---
 
@@ -92,7 +92,7 @@ assembly will be re-generated.
 
 Using a single ChocolateyGuiBranding.dll as the source of branding makes it very
 simple to generate and distribute this assembly to apply branding across your
-entire organisation.
+entire organization.
 
 ## Branding in action
 

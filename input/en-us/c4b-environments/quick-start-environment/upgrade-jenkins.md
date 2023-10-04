@@ -13,7 +13,7 @@ If your server is restricted then internalize the package to your internal repos
 
 > :choco-warning: **WARNING**
 >
-> The current Jenkins package requires a Java 18 or 11 which hasn't been added as a dependency (due to the numerous flavours of Java out there). As part of the Quick Start Guide setup we install the temurin11jre package. However any Java version 11 or 18 package will work.
+> The current Jenkins package requires a Java 18 or 11 which hasn't been added as a dependency (due to the numerous flavors of Java out there). As part of the Quick Start Guide setup we install the temurin11jre package. However, any Java version 11 or 18 package will work.
 
 ## Instructions
 

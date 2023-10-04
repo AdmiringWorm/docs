@@ -251,7 +251,7 @@ Organizations can also opt to purchase or acquire a certificate from an external
 As mentioned before, you will need to ensure that the "Subject/Common Name" attribute on the SSL certificates matches the FQDN you are using.
 If you have a preferred vendor for certificates, you should refer to their documentation for best practices in acquiring a certificate.
 
-You can also use a Microsoft Azure KeyVault and one of the [partnered CA Providers](https://docs.microsoft.com/en-us/azure/key-vault/certificates/create-certificate#partnered-ca-providers) to create and fulfil a certificate request, though this may require additional configuration for your environment.
+You can also use a Microsoft Azure KeyVault and one of the [partnered CA Providers](https://docs.microsoft.com/en-us/azure/key-vault/certificates/create-certificate#partnered-ca-providers) to create and fulfill a certificate request, though this may require additional configuration for your environment.
 
 ### How much does it cost?
 

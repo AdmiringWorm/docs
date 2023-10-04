@@ -85,7 +85,7 @@ You will also need to have at least one Group of computers already defined.
       By default, if any Deployment Step fails, the overall Deployment is marked as Failed.
     * `Only run other Deployment Steps if successful`.
       Enabling this option will prevent subsequent Deployment Steps from starting if this step fails.
-      The overall Deployment will be marked as Failed, and subsequent steps will be Cancelled.
+      The overall Deployment will be marked as Failed, and subsequent steps will be Canceled.
 1. Select the **Select Target Groups** tab.
 
     ![Chocolatey Central Management Deployment Step Select Target Group tab](/assets/images/deployments/ccm-deployments-select-groups-tab.png)

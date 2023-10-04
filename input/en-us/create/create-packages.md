@@ -167,7 +167,7 @@ You can indicate the `Chocolatey` dependency like any other dependency. For exam
     </dependencies>
 ```
 
-Logically, the version is based on the lowest compatible version. But if you don't know and used a lot of sorcery in your package, depend on the version of `Chocolatey` that you succesfully tested your package on.
+Logically, the version is based on the lowest compatible version. But if you don't know and used a lot of sorcery in your package, depend on the version of `Chocolatey` that you successfully tested your package on.
 
 **See also:** [NuGet Version Reference](http://docs.nuget.org/docs/reference/versioning)
 

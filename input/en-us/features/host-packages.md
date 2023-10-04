@@ -349,7 +349,7 @@ See https://inedo.com/support/documentation/proget/installation/installation-gui
 
 **PRICING**: Starts at free (for ProGet) - https://inedo.com/proget/pricing.
 
-#### ProGet Enterprise High Availabilty
+#### ProGet Enterprise High Availability
 
 * Windows Server Cluster or Kubernetes Cluster, each with similar specifications as above;  note that artifacts are stored on shared storage
 * Shared Storage: Appliance-based (such as NAS), or software-based (such as SMB). This will be shared across all Servers, so they will need to be able to read and write to it at high speed. Recommend appliance-based (NAS) with 3 times the total size of what you will store (and a backup) - 2-5TB+ space.

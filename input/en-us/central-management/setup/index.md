@@ -100,7 +100,7 @@ Please see [Central Management Service Setup](xref:ccm-service).
 
 > :choco-info: **NOTE**
 >
-> If Step 1 is not succesful, do not move on to this step until you resolve issues with database setup.
+> If Step 1 is not successful, do not move on to this step until you resolve issues with database setup.
 
 ## Step 4: Setup Central Management Website
 

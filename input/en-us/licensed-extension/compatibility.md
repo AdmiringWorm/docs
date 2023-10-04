@@ -9,7 +9,7 @@ Description: Compatibility Information for Chocolatey Licensed Extension
 
 This covers the compatibility information for the Chocolatey Licensed Extension and associated Chocolatey CLI and other product versions.
 The Chocolatey Licensed Extension is designed to work with a certain corresponding version range of the Chocolatey CLI package.
-Using incompatible versions of Chocolatey CLI with the Chocolatey Licensed Extension may result in undesirable behaviour.
+Using incompatible versions of Chocolatey CLI with the Chocolatey Licensed Extension may result in undesirable behavior.
 
 This page serves as a reference for troubleshooting and resolving issues that may arise from having incompatible versions of the Chocolatey Licensed Extension installed.
 
