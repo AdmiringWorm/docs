@@ -69,7 +69,7 @@ This was fixed as part of a feature addition within [Chocolatey GUI Licensed Ext
 
 ## chocolateyguicli Command Not Registered by System
 
-If you recieve an error in the shell stating `chocolateyguicli is not registered` or `ObjectNotFound`, please go through the following steps.
+If you receive an error in the shell stating `chocolateyguicli is not registered` or `ObjectNotFound`, please go through the following steps.
 
 1. Reinstall the `chococlateygui` package. `choco upgrade chocolateygui -y --force`
 1. If step 1 did not fix the issue, please check that your antivirus software is not blocking the Chocolatey GUI Config from being written to. The Chocolatey GUI Config file can be located at `C:\ProgramData\Chocolatey GUI\Config\Data.db`.

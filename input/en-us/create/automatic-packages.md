@@ -28,7 +28,7 @@ The [Chocolatey Automatic Package Updater Module](https://github.com/chocolatey-
 AU was created by Chocolatey community member [Miodrag Milic](https://github.com/majkinetor).
 The original repository has been archived and is no longer receiving updates.
 
-Due to its widespread usage for many Chocolatey packages, we have forked the module into the [chocolatey-au](https://github.com/chocolatey-community/chocolatey-au) repository in the Chocolatey Community organisation where it will be maintained going forward.
+Due to its widespread usage for many Chocolatey packages, we have forked the module into the [chocolatey-au](https://github.com/chocolatey-community/chocolatey-au) repository in the Chocolatey Community organization where it will be maintained going forward.
 
 ### Setup
 

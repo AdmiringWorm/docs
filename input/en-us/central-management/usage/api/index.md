@@ -25,7 +25,7 @@ See the [ChocoCCM Function Reference](xref:chococcm-functions) page for a full l
 
 ## Authentication
 
-Before being able to utilise the CCM API, you will need to create an authenticated session.
+Before being able to utilize the CCM API, you will need to create an authenticated session.
 This can be done by targeting the `/Account/Login` endpoint and submitting the username and password.
 You will need to use the authenticated session variable for any API calls.
 

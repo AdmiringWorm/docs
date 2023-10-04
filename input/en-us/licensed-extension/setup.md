@@ -83,7 +83,7 @@ Here is an example of installing the licensed extension nupkg from a local file 
 
 > :choco-info: **NOTE**
 >
-> Please refrence the [choco install command documentation](xref:choco-command-install) for more information regarding the `--pre` & `--source` switches used in this command.
+> Please reference the [choco install command documentation](xref:choco-command-install) for more information regarding the `--pre` & `--source` switches used in this command.
 
 ### How Do I Install The Trial Edition?
 
@@ -527,7 +527,7 @@ You can get this if you are attempting to install the `chocolatey-agent` package
 
 ### Unable to load licensed version extensions and commands.
 
-You may see a message like this: `Unable to load licensed version extensions and commands. Please make sure the version of Chocolatey you are on is up to date and meets the minimum requirements of the licensed version. If that version is in beta, that means the latest avaialble version.` followed by the actual error that may look something like this: `Could not load type 'chocolatey.infrastructure.app.services.Isomething' from assembly 'choco, Version=0.10.7.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'. 0.10.7`.
+You may see a message like this: `Unable to load licensed version extensions and commands. Please make sure the version of Chocolatey you are on is up to date and meets the minimum requirements of the licensed version. If that version is in beta, that means the latest available version.` followed by the actual error that may look something like this: `Could not load type 'chocolatey.infrastructure.app.services.Isomething' from assembly 'choco, Version=0.10.7.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'. 0.10.7`.
 
 If you see this, it is typically due to an incompatibility between Chocolatey and the licensed extension (Chocolatey.Extension). As these two are tightly integrated to each other, sometimes there are incompatibilities introduced. Chocolatey Software will inform customers of these issues and ways to get around that, typically ahead of releases on the customer advisory list (the link for this is sent with the email that contained the license).
 

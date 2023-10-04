@@ -269,7 +269,7 @@ See this [list](https://github.com/chocolatey/choco/discussions/2995) for known 
 
 ### Bug Fixes
 
-- Fix - Chocolatey Licensed Extension does not fall back to open source behaviour when license verification fails - see [licensed #330](https://github.com/chocolatey/chocolatey-licensed-issues/issues/330).
+- Fix - Chocolatey Licensed Extension does not fall back to open source behavior when license verification fails - see [licensed #330](https://github.com/chocolatey/chocolatey-licensed-issues/issues/330).
 - Fix - License identifier should not be shown in logs.
 - Fix - Get-ChocolateyWebFile - Checksum incorrectly fails when downloading a file to the same file path.
 - Fix - Package Internalizer - Unable to load Uninstall-ChocolateyPackageCmdlet - see [licensed #326](https://github.com/chocolatey/chocolatey-licensed-issues/issues/326).

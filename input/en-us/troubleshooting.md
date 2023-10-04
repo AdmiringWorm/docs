@@ -609,7 +609,7 @@ This warning can show up with a few different forms, such as:
 * `SecurityProtocol was set to Tls, Tls11, Tls12, resetting to SystemDefault`
 
 This warning indicates that a package script, hook script, or an extension changed the TLS security protocol, usually during a package install, uninstall, or upgrade.
-Ensure you understand the implications of this change and contact the package maintainer to inform them of their package behaviour.
+Ensure you understand the implications of this change and contact the package maintainer to inform them of their package behavior.
 
 In most cases, packages and extensions should not be modifying the security protocol.
 Rather, you should manage the allowed TLS versions through your operating system. Chocolatey CLI v2.0.0 and later will defer to the operating system configuration for the allowed TLS versions.

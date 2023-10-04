@@ -64,7 +64,7 @@ choco apikey list
 choco apikey remove --source "'https://source.url/api/v2/'"
 ```
 
-For backwards compatibility, omitting the subcommand retains its original behaviour:
+For backwards compatibility, omitting the subcommand retains its original behavior:
 
 - `choco apikey` with no arguments defaults to `list`, listing stored API keys.
 - `choco apikey --source "'https://source.url/api/v2/'" --key "'API_KEY_HERE'"` with both arguments defaults to `add`, adding a new API key.

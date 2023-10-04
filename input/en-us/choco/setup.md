@@ -374,7 +374,7 @@ param (
       7 { throw "$errorMessage 7-Zip command line error" }
       8 { throw "$errorMessage 7-Zip out of memory" }
       255 { throw "$errorMessage Extraction cancelled by the user" }
-      default { throw "$errorMessage 7-Zip signalled an unknown error (code $exitCode)" }
+      default { throw "$errorMessage 7-Zip signaled an unknown error (code $exitCode)" }
     }
   } else {
     if ($PSVersionTable.PSVersion.Major -lt 5) {
