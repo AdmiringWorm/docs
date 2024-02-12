@@ -41,7 +41,7 @@ jobs:
         uses: AdmiringWorm/action-languagetool@long-text-fix
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: "github-pr-review"
+          reporter: "github-check"
           level: warning
           language: en-US
           base_ref: master
