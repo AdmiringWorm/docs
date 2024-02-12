@@ -9,7 +9,7 @@ RedirectFrom:
 ---
 
 Chocolatey Central Management gives you direct visibility into the software packages in use in your organization, making it easy to see which machines are out of date and may need packages updated.
-Software packages can be viewed in the context of the organisation as a whole, or in the context of an individual computer.
+Software packages can be viewed in the context of the organization as a whole, or in the context of an individual computer.
 
 The main **Software** page can be accessed from the Central Management dashboard via the menu entry in the left-hand sidebar.
 

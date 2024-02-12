@@ -332,7 +332,7 @@ Update the bundled version of CCM to the [recently released 0.6.1](https://docs.
 ### Features
 
 - Updates CCM to version 0.6.1, and updates dependencies
-- Validates Chocolatey Licence _before_ deploying resources
+- Validates Chocolatey License _before_ deploying resources
 - Ensured Chocolatey Agent is installed and checking into the CCM installation
 
 ### Bug Fixes

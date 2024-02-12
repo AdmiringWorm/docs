@@ -319,7 +319,7 @@ Great! This is the most reliable use of Chocolatey, to embed the binaries direct
 
 ### I'm creating internal or offline packages, what do I need?
 
-Well, if you are not creating packages for the community package repository, you have different rules that apply. Embed as much as possible into the package (as long as it is under 500MB you should see no issues). We typically recommend 500MB as the threshhold for organizations for the following reasons:
+Well, if you are not creating packages for the community package repository, you have different rules that apply. Embed as much as possible into the package (as long as it is under 500MB you should see no issues). We typically recommend 500MB as the threshold for organizations for the following reasons:
 
 * a nupkg file size takes up some space
 * files in the package directory (can be cleaned up as part of the script)
@@ -462,7 +462,7 @@ All packages (and the binaries they contain or download at runtime) on community
 
 > :choco-info: **NOTE**
 >
-> Did you know that 60% or more of the sofware that is submitted to the community repository has its first scans by VirusTotal through Chocolatey's package scanner submissions? It's helped many of those anti-virus manufacturers get a clearer picture of heuristics and hopefully ends up in better anti-virus products with less false positives.
+> Did you know that 60% or more of the software that is submitted to the community repository has its first scans by VirusTotal through Chocolatey's package scanner submissions? It's helped many of those anti-virus manufacturers get a clearer picture of heuristics and hopefully ends up in better anti-virus products with less false positives.
 
 > :choco-info: **NOTE**
 >

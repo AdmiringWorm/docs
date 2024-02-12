@@ -822,7 +822,7 @@ A short video explaining what is included in this release can be found here:
 
 We are pretty excited to finally share a new Chocolatey release! And this release won't disappoint. Loads of bug fixes, enhanced exit codes for search, list, info and outdated when results are returned versus nothing being returned, and some really nice improvements.
 
-Perhaps the biggest addition this release is the ability to halt installation if a reboot is detected ([#1038](https://github.com/chocolatey/choco/issues/1038)). Once you turn this feature on, if you are installing some packages and somewhere in the middle of that there is a need for a reboot, Chocolatey will stop and exit with either exit code 350 (pending reboot prior to anything) or 1604 (install incomplete), indicating a reboot is needed to continue. It won't reboot for you, as it is just a package manager - but it will stop execution so nothing that may error on install is attemtped. You'll need to opt into this feature, so see [#1038](https://github.com/chocolatey/choco/issues/1038) for details.
+Perhaps the biggest addition this release is the ability to halt installation if a reboot is detected ([#1038](https://github.com/chocolatey/choco/issues/1038)). Once you turn this feature on, if you are installing some packages and somewhere in the middle of that there is a need for a reboot, Chocolatey will stop and exit with either exit code 350 (pending reboot prior to anything) or 1604 (install incomplete), indicating a reboot is needed to continue. It won't reboot for you, as it is just a package manager - but it will stop execution so nothing that may error on install is attempted. You'll need to opt into this feature, so see [#1038](https://github.com/chocolatey/choco/issues/1038) for details.
 
 If you've long hated the default console colors, we've spent quite a bit of time detecting the background console color and adjusting the colorization output of Chocolatey for this release ([#1131](https://github.com/chocolatey/choco/issues/1131)). You might give that a whirl and see if you can turn back on console colors for good.
 
@@ -1199,7 +1199,7 @@ If you need the prior behavior, please turn on the feature `scriptsCheckLastExit
 
 ## [0.10.2](https://github.com/chocolatey/choco/issues?q=milestone%3A0.10.2+is%3Aclosed) (September 30, 2016)
 
-We're dubbing this the "Every Joe" release in honor of a friend that just lost his fight with brain cancer. If you want to help further research, please make a donation to a cancer research association of your choosing (e.g. the [American Brain Tumor Assocation](https://give.abta.org/give/261975/#!/donation/checkout)).
+We're dubbing this the "Every Joe" release in honor of a friend that just lost his fight with brain cancer. If you want to help further research, please make a donation to a cancer research association of your choosing (e.g. the [American Brain Tumor Association](https://give.abta.org/give/261975/#!/donation/checkout)).
 
 A couple of important fixes/enhancements in this release. Most of the improvements are about providing better feedback to you and fixing minor issues. The big one surrounds when packages set a download path for a file using `$env:TEMP`, choco will ensure that the file can still be found for later use.
 

@@ -370,7 +370,7 @@ A short video explaining what is included in this release can be found here:
 
 - Deployments - Machine contact timeout now defaults to infinite (0) to allow for semi-connected environments
 
-Previously this value was set to a constant value of 20 and not configurable. To revert to previous behaviour, set the machine contact timeout in minutes value for a given Deployment Step to 20.
+Previously this value was set to a constant value of 20 and not configurable. To revert to previous behavior, set the machine contact timeout in minutes value for a given Deployment Step to 20.
 
 ### Features
 
