@@ -12,10 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 10 # We only fetch the last 10 commits. This should generally be enough to get the master branch
-      - name: Setup ReviewDog
-        uses: reviewdog/action-setup@v1.0.6
+      - name: Fetch master branch
+        run: git fetch origin master
       - name: Run misspell with reviewdog
         uses: reviewdog/action-misspell@v1.14.0
         with:
@@ -30,10 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 10 # We only fetch the last 10 commits. This should generally be enough to get the master branch
-      - name: Setup ReviewDog
-        uses: reviewdog/action-setup@v1.0.6
+      - name: Fetch master branch
+        run: git fetch origin master
       - name: Run LanguageTool with reviewdog
         uses: AdmiringWorm/action-languagetool@long-text-fix
         with:
