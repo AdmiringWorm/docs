@@ -31,7 +31,7 @@ jobs:
       - name: Fetch master branch
         run: git fetch origin master
       - name: Run LanguageTool with reviewdog
-        uses: AdmiringWorm/action-languagetool@long-text-fix
+        uses: chocolatey/action-languagetool@develop
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: "github-pr-review"

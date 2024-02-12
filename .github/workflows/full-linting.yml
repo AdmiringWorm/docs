@@ -27,7 +27,7 @@ jobs:
       - name: Setup ReviewDog
         uses: reviewdog/action-setup@v1.0.6
       - name: Run LanguageTool with reviewdog
-        uses: AdmiringWorm/action-languagetool@long-text-fix
+        uses: chocolatey/action-languagetool@develop
         with:
           github_token: ${{ secrets.github_token }}
           reporter: 'github-check'
