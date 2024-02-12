@@ -1,6 +1,9 @@
 name: Full Linting
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "spell-testing"
 
 jobs:
   misspell:
@@ -27,7 +30,7 @@ jobs:
       - name: Setup ReviewDog
         uses: reviewdog/action-setup@v1.0.6
       - name: Run LanguageTool with reviewdog
-        uses: reviewdog/action-languagetool@v1.12.0
+        uses: AdmiringWorm/action-languagetool@long-text-fix
         with:
           github_token: ${{ secrets.github_token }}
           reporter: 'github-check'
