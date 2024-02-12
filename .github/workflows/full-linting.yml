@@ -1,9 +1,6 @@
 name: Full Linting
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "spell-testing"
 
 jobs:
   misspell:
