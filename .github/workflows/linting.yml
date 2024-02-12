@@ -1,9 +1,6 @@
 name: Linting
 on:
   pull_request:
-  push:
-    branches:
-      - "spell-testing"
 
 permissions:
   contents: read
@@ -16,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 10 # We only fetch the last 10 commits. This should generally be enough to get the master branch
       - name: Setup ReviewDog
         uses: reviewdog/action-setup@v1.0.6
       - name: Run misspell with reviewdog
@@ -34,14 +31,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 10 # We only fetch the last 10 commits. This should generally be enough to get the master branch
       - name: Setup ReviewDog
         uses: reviewdog/action-setup@v1.0.6
       - name: Run LanguageTool with reviewdog
         uses: AdmiringWorm/action-languagetool@long-text-fix
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: "github-check"
+          reporter: "github-pr-review"
           level: warning
           language: en-US
           base_ref: master
