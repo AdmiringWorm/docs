@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository using git
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install, build, and upload site
-        uses: withastro/action@v2
+        uses: withastro/action@v6
 
   deploy:
     needs: build
